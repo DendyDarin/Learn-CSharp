@@ -1,13 +1,17 @@
 ﻿// Declare variables
-string name = string.Empty;
+string firstName = string.Empty;
+string lastName = string.Empty;
 int age = 0;
 int retirementAge = 65;
 
 // prompt user for input
-Console.WriteLine("Enter your name: ");
-name = Console.ReadLine();
+Console.WriteLine("Enter your first name: ");
+firstName = Console.ReadLine();
 
-Console.WriteLine("Your age? ");
+Console.WriteLine("Your last name? ");
+lastName = Console.ReadLine();
+
+Console.WriteLine("How about your age? ");
 age = Convert.ToInt32(Console.ReadLine()); // convert int
 
 // process the data
