@@ -1,9 +1,9 @@
 ﻿// Declare variables
-string firstName = string.Empty;
+string? firstName = string.Empty; // make it nullable with '?'
 string lastName = string.Empty;
 int age = 0;
 int retirementAge = 65;
-decimal salary = 0;
+decimal salary;
 char gender = char.MinValue;
 bool isWorking = true;
 
