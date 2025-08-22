@@ -1,11 +1,7 @@
 ﻿// Welcome Message
-using System.Runtime.InteropServices.Marshalling;
 
 Console.WriteLine("Welcome to simple calculator");
 Console.WriteLine();
-
-// Prompt for user input
-
 
 // Show calculator option
 Console.WriteLine();
@@ -73,7 +69,6 @@ Console.Write("What do you want to operate? ");
 
 operation = Convert.ToInt32(Console.ReadLine());
 }
-
 
 Console.WriteLine();
 Console.WriteLine("Thank you using sample calculator.");
